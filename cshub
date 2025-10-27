@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Correct Score Hub — Download</title>
+    <meta
+      name="description"
+      content="Correct Score Hub — get accurate football predictions and join our community on WhatsApp and Telegram." />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <style>
+      :root {
+        --bg1: #0f172a;
+        --bg2: #071230;
+        --accent: #00d4ff;
+        --accent-2: #7b61ff;
+        --glass-border: rgba(255, 255, 255, 0.08);
+        --muted: rgba(255, 255, 255, 0.7);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+          Roboto, "Helvetica Neue", Arial;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        background: radial-gradient(
+            1200px 600px at 10% 10%,
+            rgba(123, 97, 255, 0.12),
+            transparent 8%
+          ),
+          radial-gradient(
+            1000px 500px at 90% 90%,
+            rgba(0, 212, 255, 0.06),
+            transparent 8%
+          ),
+          linear-gradient(180deg, var(--bg1), var(--bg2));
+        color: #fff;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 48px;
+      }
+      .container {
+        max-width: 800px;
+        width: 100%;
+      }
+
+      .card {
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.02),
+          rgba(255, 255, 255, 0.01)
+        );
+        border: 1px solid var(--glass-border);
+        border-radius: 24px;
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        box-shadow: 0 6px 30px rgba(3, 6, 23, 0.6);
+        text-align: center;
+      }
+
+      .brand {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+      }
+      .logo {
+        width: 56px;
+        height: 56px;
+        border-radius: 12px;
+        background: linear-gradient(135deg, var(--accent), var(--accent-2));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        color: #021025;
+        font-size: 20px;
+        box-shadow: 0 8px 30px rgba(123, 97, 255, 0.12);
+      }
+      .tag {
+        font-size: 13px;
+        color: var(--muted);
+      }
+      .lead {
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.9);
+        margin: 18px 0 18px;
+      }
+
+      .download-section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(90deg, var(--accent), var(--accent-2));
+        border-radius: 16px;
+        padding: 16px;
+        box-shadow: 0 8px 30px rgba(123, 97, 255, 0.3);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+      .download-section:hover {
+        transform: scale(1.03);
+        box-shadow: 0 10px 40px rgba(123, 97, 255, 0.5);
+      }
+
+      .download-section img {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+      }
+
+      .community {
+        margin-top: 18px;
+        padding: 14px;
+        border-radius: 12px;
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.02),
+          transparent
+        );
+        border: 1px solid rgba(255, 255, 255, 0.03);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+      }
+      .community .title {
+        font-weight: 700;
+      }
+      .social-row {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .social-btn {
+        flex: 1;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 16px;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+        min-width: 140px;
+        justify-content: center;
+      }
+      .whatsapp {
+        background: linear-gradient(90deg, #1ebea5, #12a46d);
+        color: #012214;
+      }
+      .telegram {
+        background: linear-gradient(90deg, #2ea1ff, #7b61ff);
+        color: #021025;
+      }
+
+      .footer {
+        margin-top: 18px;
+        padding-top: 8px;
+        border-top: 1px solid rgba(255, 255, 255, 0.03);
+        color: var(--muted);
+        font-size: 13px;
+        text-align: center;
+      }
+
+      @media (max-width: 520px) {
+        body {
+          padding: 24px;
+        }
+        .lead {
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="brand">
+          <div class="logo">CS</div>
+          <div>
+            <div style="font-weight: 800; font-size: 15px">
+              Correct Score Hub
+            </div>
+            <div class="tag">Accurate football predictions • Fast updates</div>
+          </div>
+        </div>
+
+        <h1 style="margin: 0">Predict smarter. Win together.</h1>
+        <p class="lead">
+          Download Correct Score Hub to get daily match predictions, live odds,
+          and join a growing community of football fans. Designed for speed —
+          results you can trust.
+        </p>
+
+        <a
+          class="download-section"
+          href="https://play.google.com/store/apps/details?id=correctscore.hub"
+          target="_blank">
+          <img
+            src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+            alt="Get it on Google Play" />
+        </a>
+
+        <div class="community">
+          <div class="title">Join our community</div>
+          <div class="tag">
+            Connect with fellow tipsters, ask questions and get live alerts.
+          </div>
+          <div class="social-row">
+            <a
+              class="social-btn whatsapp"
+              href="https://whatsapp.com/channel/0029Vb6Do7XJf05YqjiNPZ0a"
+              target="_blank"
+              rel="noopener noreferrer"
+              >WhatsApp</a
+            >
+            <a
+              class="social-btn telegram"
+              href="https://t.me/cshubfreetips"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Telegram</a
+            >
+          </div>
+        </div>
+
+        <div class="footer">
+          Made with ⚽️ • Correct Score Hub • Version 1.0
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
